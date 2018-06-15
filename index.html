@@ -7,7 +7,6 @@
     <meta name="description" content="Создание сайтов - главная странциа">
     <meta name="author" content="Вадим Федосенко">
     <link rel="icon" href="/favicon.ico">
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>Разработка адаптивных сайтов</title>
@@ -31,7 +30,37 @@
         <h1 class="cover-heading">Создание веб-сайтов</h1>
         <p class="lead">Разработка веб-сайтов, Дизайн-макета, оптимзация, тестирование, продвижение и реклама</p>
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Заказать</a>
+          <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#mainBTN">Заказать</button>
+
+			<!-- Modal -->
+<div class="modal fade" id="mainBTN" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказ сайта</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a href="https://vk.com/absolutelyrelax"><img src="img/vk-icon.png"></a>
+        <a href="https://facebook.com/absolutelyrelax"><img src="img/facebook-icon.png"></a>
+        <a href="https://twitter.com/absolutelyrelax"><img src="img/twitter-icon.png"></a>
+        <a href="https://www.instagram.com/absrelax"><img src="img/insagram-icon.png"></a>
+        <a href="skype:absolutelyrelax1?chat"><img src="img/skype-icon.png"></a>
+        <form action="#">
+        	<p><input type="text"  placeholder="Введите ваше имя..."></p>
+          <p><input type="email" placeholder="Введите ваше E-mail..."></p>
+          <textarea rows="10"></textarea>
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Заказать</button>
+      </div>
+    </div>
+  </div>
+</div>
         </p>
       </main>
 
@@ -45,7 +74,7 @@
     <!-- Bootstrap core JavaScript-->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
-    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
