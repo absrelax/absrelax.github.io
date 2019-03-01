@@ -1,4 +1,6 @@
-
+* {
+box-sizing: border-box;
+}
 menu {
 	position: fixed;
 	top: 0px;
@@ -26,5 +28,17 @@ menu {
 }
 
 a {
-	text-decoration: none
+	text-decoration: none;
+	margin: 0;
+}
+
+p, h3, h2, h4,  {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	margin: 0px;
+	padding-left: 30px;
+	height: 45px;
 }
