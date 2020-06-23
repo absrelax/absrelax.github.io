@@ -1,0 +1,195 @@
+*
+
+{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-family: "Helvetica Neue";
+    color: #32325f;
+}
+
+.container {
+    max-width:1140px;
+    width: 99%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    display: flex;
+    height: 854px;
+    background-color: #f4f5f7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+}
+
+.navbar a {
+    margin-left: 20px;
+}
+
+.logo {
+    color: #95989a;
+    font-family: "Font Awesome 5 Brands";
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Helvetica Neue";
+    text-decoration: u;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 159px;
+}
+
+.section {
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.presaletext {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bookname {
+    padding-top: 14px;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.pricetext {
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.btns {
+    margin-top: 49px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+    padding: 20px 30px;
+
+    color:#fff
+}
+
+.btn-1 {
+    background-color: #2dce89;
+}
+
+.btn-2 {
+    background-color: #5e72e4;
+    margin-left: 30px;
+}
+.textarea {
+    width: 50%;
+}
+
+.imagehead {
+    width: 50%;
+}
+
+.imagehead img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about {
+    height: 700px;
+    background-color: #fff;
+}
+
+.section-subtitle {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+
+.section-title {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+.people {
+    height: 906px;
+    background-color: #f4f5f7;
+}
+
+.footer {
+    height: 312px;
+    background-color: #32325f;
+}
+
+.wrap {
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.block {
+    width: 23%;
+    padding-left: 2%;
+    line-height: 1.4;
+}
+
+.block img {
+    padding-bottom: 40px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+    padding-bottom: 70px;
+    color: white;
+}
+
+.footertitle {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 34px;
+}
+
+.footer-block {
+    line-height: 1.4;
+    color: #fff;
+}
+
+.footer-block a {
+    display: block;
+    color: #fff;
+}
+
+.people-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.whobuyblock {
+    width: 33%;
+    margin-bottom: 36px;
+}
